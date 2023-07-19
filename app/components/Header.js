@@ -1,18 +1,15 @@
 import Image from 'next/image'
 
 export default function Header() {
-	
     return (
         <header className="header">
             <div className="container">
                 <div className="header-box">
-
                     <div className="main-logo">
                         <a href="#">
                             <Image height="103" width="160" src="/images/logo.png" alt="" />
                         </a>
                     </div>
-
                     <div className="header-box-right">
                         <div className="header-middle">
                             <div className="header-middle-left">
@@ -94,7 +91,6 @@ export default function Header() {
                             </nav>
                         </div>
                     </div>
-
                 </div>
             </div>
         </header>
