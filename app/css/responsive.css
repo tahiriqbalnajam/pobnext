@@ -1,0 +1,225 @@
+@media (max-width:1199px){
+    .main-logo {
+        flex: 0 0 140px;
+        margin-right:40px;
+    }
+    .social-icons a {
+        margin-left: 8px;
+    }
+    .header-btn a {
+        padding: 10px 20px;
+    }
+    .header .navbar-expand-lg .navbar-nav .nav-link {
+        padding:25px 35px 25px 0;
+    }
+    .about-box h3 {
+        font-size: 30px;
+    }
+    .how-can-help-box {
+        padding: 70px 30px;
+    }
+    .how-can-help-box h4 {
+        font-size: 26px;
+    }
+    .footer-box .social-icons a {
+        margin-right: 10px;
+    }
+}
+@media (max-width:991px){
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #002B80;
+        padding: 20px 15px;
+    }
+    .header .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+    .main-logo,
+    .header-info i{
+        display:none;
+    }
+    .navbar-brand {
+        display: inline-block;
+        max-width: 120px;
+    }
+    .navbar-brand img{
+        width:100%;
+    }
+    .header-middle-left {
+        width: 70%;
+    }
+    .header-middle .social-icons {
+        width: 30%;
+    }
+    .navbar-toggler {
+        padding: 4px 8px;
+        background-color: #fff;
+        margin: 0 0 0 20px;
+    }
+    .navbar-toggler:focus {
+        box-shadow:none;
+    }
+    .header-box {
+        border-bottom:none;
+    }
+    .about-info-img {
+        margin-top: 50px;
+    }
+    .collection h2 {
+        font-size: 32px;
+    }
+    .our-stat-box {
+        margin-top: 30px;
+    }
+    .mission-img {
+        margin-top: 50px;
+    }
+    .default-heading h2 {
+        font-size: 36px;
+    }
+    .nav-tabs li .nav-link {
+        padding:15px;
+    }
+    .blog-box-bg {
+        margin-bottom: 30px;
+    }
+    .footer-box {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:767px){
+    .default-heading {
+        margin-bottom: 50px;
+    }
+    .header-middle .social-icons {
+        display:none;
+    }
+    .header-middle-left {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #banner {
+        padding: 250px 0 100px 0;
+    }
+    .banner-content h4 {
+        font-size: 30px;
+    }
+    .banner-content h1 {
+        font-size: 70px;
+    }
+    .banner-content p {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    .collection {
+        padding: 15px 30px;
+    }
+    .nav-tabs {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .clinic-timing-box {
+        padding: 30px;
+    }
+    .zakat, .volunteer {
+        margin-top: 0;
+    }
+    .how-can-help-box {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:574px){
+    .default-heading h2 {
+        font-size: 32px;
+    }
+    .collection {
+        display: block;
+        padding:15px 30px;
+    }
+    .header-middle {
+        display: none;
+    }
+    .header {
+        padding-top: 10px;
+    }
+    .navbar-brand {
+        max-width: 100px;
+    }
+    #banner {
+        padding: 150px 0 100px 0;
+    }
+    .banner-content {
+        padding-left: 10px;
+    }
+    .banner-content h4 {
+        font-size: 20px;
+    }
+    .banner-content h1 {
+        font-size: 40px;
+        line-height:46px;
+        margin: 10px 0;
+    }
+    .banner-content p {
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+    .btn-white, .btn-red {
+        padding: 18px 15px;
+        min-width: 150px;
+    }
+    .banner-btn .btn-white {
+        margin-right:15px;
+    }
+    .about-info-text h2 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .about-tag {
+        padding: 15px;
+    }
+    .about-tag p {
+        font-size: 18px;
+    }
+    .collection {
+        text-align: center;
+    }
+    .collection h2 {
+        font-size: 26px;
+        margin-bottom:15px;
+    }
+    .our-stats,
+    .vision-mission,
+    .gallery,
+    .clinic-timing,
+    .how-can-help,
+    .our-blog{
+        padding: 50px 0;
+    }
+    .default-heading {
+        margin-bottom: 30px;
+    }
+    .nav-tabs li .nav-link {
+        font-size: 16px;
+    }
+    .clinic-info p {
+        font-size: 18px;
+    }
+    .blog-info {
+        padding: 60px 15px 15px 15px;
+    }
+    .blog-box-sm{
+        display: block;
+    }
+    .blog-box-sm .blog-img {
+        max-width: 100%;
+    }
+    .blog-box-sm .blog-info {
+        width: 90%;
+        margin: -70px auto 0 auto;
+        padding:60px 15px 15px 15px;
+    }
+}

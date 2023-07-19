@@ -1,0 +1,899 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+/* ================================= */
+/* -------- Typography CSS --------- */
+/* ================================= */
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000;
+	overflow-x: hidden;
+}
+a {
+	outline: medium none !important;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	text-decoration: none !important;
+}
+ul,li{
+	margin:0;
+	padding:0;
+}
+a:focus {
+	text-decoration: none !important;
+}
+a:hover {
+	text-decoration: none !important;
+}
+input {
+	outline: medium none !important;
+}
+p{
+	margin:0;
+}
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+	font-weight: 700;
+	margin: 0px;
+}
+.container{
+    max-width:1200px;
+}
+.btn-white {
+	background: #FFFFFF;
+	border-radius: 5px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	color: #000000;
+	display: inline-block;
+	padding: 18px 30px;
+	min-width:180px;
+	text-align: center;
+}
+.btn-white:hover{
+	color:#fff;
+	background: #9A0007;
+}
+.btn-red{
+	background: #ED1C24;
+	border-radius: 5px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	color: #fff;
+	display: inline-block;
+	padding: 18px 30px;
+	min-width:180px;
+	text-align: center;
+}
+.btn-red:hover{
+	color:#fff;
+	background: #9A0007;
+}
+.btn-sm{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 14px;
+	padding:10px 15px;
+	min-width:100px;
+}
+.text{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+}
+
+/** Default Heading **/
+.default-heading {
+	display:inline-block;
+	margin-bottom:80px;
+}
+.default-heading h2{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom:10px;
+}
+.default-heading span {
+	height: 2px;
+	width: 100%;
+	background: #ED1C24;
+	display: block;
+	margin:7px 0 0 0;
+}
+.default-heading span.heading-line2{
+	width:66%;
+}
+.default-heading span.heading-line3{
+	width:33%;
+}
+.default-heading.white h2{
+	color: #FFFFFF;
+}
+.default-heading.center{
+	display: table;
+	margin-left:auto;
+	margin-right:auto;
+}
+.default-heading.center span{
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* ================================= */
+/* ------------ Header CSS --------- */
+/* ================================= */
+.header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+    padding-top:30px;
+}
+.header-box,
+.header-middle,
+.header-middle-left,
+.header-info{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.main-logo{
+    flex:0 0 160px;
+    margin-right:70px;
+}
+.main-logo a{
+    display: block;
+    width:100%;
+}
+.main-logo a img{
+    width:100%;
+}
+.header-box-right {
+	width: 100%;
+}
+.header-box {
+	border-bottom: 1px solid #7a8aa2;
+}
+.header-middle {
+	border-bottom: 1px solid #7a8aa2;
+	padding: 0 0 10px 0;
+}
+.header-middle .social-icons {
+	width: 26%;
+	text-align: right;
+}
+.header-middle-left{
+	width: 74%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-right:30px;
+}
+.social-icons a {
+	display: inline-block;
+	background-color: #fff;
+	height: 38px;
+	width: 38px;
+	line-height: 38px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 15px;
+    color: #000;
+}
+.social-icons a:hover{
+    background: #ED1C24;
+    color:#fff;
+}
+.header-info-text h6{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.header-info-text p{
+    font-size: 14px;
+    color:#ccc;
+}
+.header-info i{
+    font-size: 35px;
+    color: #fff;
+    margin-right: 15px;
+}
+
+/** Main Menu **/
+.header .navbar-expand-lg{
+    padding:0;
+}
+.navbar-brand {
+    display:none;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16px;
+	color: #FFFFFF;
+	padding: 25px 40px 25px 0;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover,
+.header .navbar-expand-lg .navbar-nav .nav-link.active,
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+    color: #ED1C24;
+}
+.header-btn a {
+	background: #ED1C24;
+	border-radius: 5px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	padding: 14px 34px;
+    display:inline-block;
+}
+.header-btn a:hover{
+    background: #ED1C24;
+    color:#fff;
+}
+.header .navbar-expand-lg .navbar-nav .dropdown-menu {
+	padding: 0;
+	overflow: hidden;
+}
+.header .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+	color: #000;
+	font-size: 14px;
+	padding: 10px 20px;
+}
+.header .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover{
+    background: #ED1C24;
+    color:#fff;
+}
+
+/* ================================= */
+/* ---------- Banner CSS ----------- */
+/* ================================= */
+#banner {
+	padding: 400px 0 200px 0;
+	position: relative;
+}
+.banner-overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(3, 14, 71, 0.80);
+}
+.banner-content {
+	border-left: 5px solid #ED1C24;
+	padding-left:30px;
+}
+.banner-content h4{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 36px;
+	color: #ED1C24;
+}
+.banner-content h1{
+	font-weight: 800;
+	font-size: 80px;
+	line-height: 72px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	margin:30px 0;
+}
+.banner-content h1 span{
+	color: #ED1C24;
+}
+.banner-content p{
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 26px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom:50px;
+	letter-spacing:5px;
+}
+.banner-btn .btn-white{
+	margin-right:30px;
+}
+.banner-slider .owl-dots {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 50px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: end;
+	-webkit-align-items: end;
+	-ms-flex-align: end;
+	align-items: end;
+}
+.banner-slider .owl-dots .owl-dot {
+	height: 7px;
+	width: 30px;
+	background-color: #fff;
+	display: block;
+	margin:7px 0;
+	transition: ease all 0.5s;
+	border-radius: 5px;
+	text-align:right;
+}
+.banner-slider .owl-dots .owl-dot.active{
+	width: 50px;
+	background-color: #ED1C24;
+}
+
+/* ================================= */
+/* --------- About Us CSS ---------- */
+/* ================================= */
+.urgent-donation{
+	padding:90px 0;
+}
+.about-info-text h2{
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+.about-info-text h2 span{
+	font-weight: 800;
+	color: #ED1C24;
+}
+.about-tag{
+	background: #EDF0FE;
+	border-left:4px solid #ED1C24;
+	padding:15px 40px;
+	margin-top:20px;
+}
+.about-tag p{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+}
+.about-tag p span{
+	color: #ED1C24;
+}
+.about-info-img img{
+	width:100%;
+}
+
+/** About Box **/
+.about-box{
+	background: #EDF0FE;
+	-webkit-box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+	padding:15px;
+	margin-top:40px;
+}
+.about-box img{
+	max-height:80px;
+}
+.about-box h3{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 20px;
+	color: #000000;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+.about-box p{
+	font-weight:400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+
+/** Collection **/
+.collection{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	justify-content: space-between;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+	justify-content: space-between;
+	background: #002B80;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding:35px 40px;
+	margin-top:45px;
+}
+.collection h2{
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 40px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+}
+
+/* ================================= */
+/* --------- Our Stats CSS --------- */
+/* ================================= */
+.our-stats{
+	background: #002B80;
+	padding:150px 0;
+}
+.our-stat-box{
+	background: #0C7EF7;
+	border-radius: 10px;
+	padding:45px 25px;
+	text-align: center;
+}
+.our-stat-box i{
+	font-weight: 900;
+	font-size: 64px;
+	line-height: 64px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.our-stat-box h2{
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin:15px 0;
+}
+.our-stat-box p{
+	font-weight: 500;
+	font-size: 26px;
+	line-height:30px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+/* ================================= */
+/* ------ Vision Mission CSS ------- */
+/* ================================= */
+.vision-mission{
+	background: #EDF0FE;
+	padding:150px 0;
+}
+.vision-mission .row {
+	align-items: center;
+}
+.mission-box{
+	background:#fff;
+	padding:15px 10px;
+	border-radius: 5px;
+	text-align: center;
+	margin-top:30px;
+}
+.mission-box i{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 36px;
+	color: #003499;
+}
+.mission-box h5{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 14px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.mission-box p{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	text-transform: uppercase;
+	color: #666666;
+}
+.mission-img{
+	border-radius:20px;
+	overflow: hidden;
+}
+.mission-img img{
+	width:100%;
+}
+
+/* ================================= */
+/* ----------- Gallery CSS --------- */
+/* ================================= */
+.gallery{
+	padding:150px 0;
+}
+.nav-tabs{
+	background: #002B80;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	max-width:400px;
+	width:100%;
+	margin:0;
+	margin-left:auto;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	padding:10px;
+}
+.nav-tabs li{
+	-webkit-box-flex:0;
+	-webkit-flex:0 0 50%;
+	-ms-flex:0 0 50%;
+	flex:0 0 50%;
+	max-width:50%;
+}
+.nav-tabs li .nav-link {
+	width:100%;
+	border:none;
+	border-radius:40px;
+	padding:15px 20px;
+	color:#fff;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 20px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+}
+.image-box{
+	box-shadow:0 0 25px 0 rgba(0, 0, 0, 0.25);
+	padding:10px;
+	overflow: hidden;
+	border-radius:10px;
+	margin-bottom:30px;
+	position: relative;
+}
+.image-box img{
+	width:100%;
+	border-radius:10px;
+}
+.image-box .content-vbtn-color-blue {
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	background: #fff;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color:#002B80;
+}
+
+/* ================================= */
+/* ------- Clinic Timing CSS ------- */
+/* ================================= */
+.clinic-timing{
+	padding:150px 0;
+	background: #EDF0FE;
+}
+.clinic-timing-box .row{
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.clinic-timing-box{
+	background: #FFFFFF;
+	-webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	padding-left:70px;
+}
+.clinic-info{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom:15px;
+}
+.clinic-info i{
+	height:40px;
+	width:40px;
+	background: #002B80;
+	color:#fff;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align: center;
+	line-height:40px;
+	font-size:20px;
+	margin-right:10px;
+}
+.clinic-info p{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 16px;
+	color: #000000;
+}
+.clinic-timing-img img {
+	width: 100%;
+}
+
+/* ================================= */
+/* ------- How Can Help CSS -------- */
+/* ================================= */
+.how-can-help{
+	padding:150px 0;
+}
+.how-can-help-box{
+	-webkit-box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding:70px 40px;
+	text-align: center;
+}
+.how-can-help-box i{
+	font-weight: 900;
+	font-size: 70px;
+	line-height: 70px;
+	color: #FFFFFF;
+}
+.how-can-help-box h4{
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom:30px;
+	margin-top:48px;
+}
+.how-can-help-box p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.zakat{
+	background: #F24747;
+}
+.endowment{
+	background: #FFC737;
+}
+.volunteer{
+	background: #14BE87;
+}
+.sponsor{
+	background: #7668F9;
+}
+.zakat,
+.volunteer{
+	margin-top: 80px;
+}
+
+/* ================================= */
+/* --------- Our Blog CSS ---------- */
+/* ================================= */
+.our-blog{
+	padding:150px 0;
+	background: #EDF0FE;
+}
+.blog-img{
+	border-radius:10px;
+	overflow: hidden;
+}
+.blog-img img{
+	width:100%;
+}
+.blog-info {
+	background: #FFFFFF;
+	border-radius: 5px;
+	width: 90%;
+	margin: -70px auto 0 auto;
+	position: relative;
+	z-index: 1;
+	padding:30px;
+	position: relative;
+}
+.blog-info h4{
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px;
+	color: #000000;
+}
+.blog-info p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+	margin:20px 0;
+}
+.blog-info .blog-date {
+	background: #002B80;
+	position: absolute;
+	top: 15px;
+	right: 0;
+	color: #fff;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 10px 18px;
+	border-radius: 17px 0 0 17px;
+}
+.blog-box-sm {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom:30px;
+}
+.blog-box-sm .blog-img {
+	max-width:240px;
+	flex:0 0 240px;
+}
+.blog-box-sm .blog-info {
+	width: 100%;
+	margin: 0 0 0 -50px;
+	padding: 20px;
+}
+.blog-box-sm .blog-info h4{
+	font-size: 16px;
+	line-height: 16px;
+}
+.blog-box-sm .blog-info p {
+	font-size: 12px;
+	margin: 15px 0;
+	line-height: 16px;
+}
+
+/* ================================= */
+/* ------- How Can Help CSS -------- */
+/* ================================= */
+.footer{
+	background: #002B80;
+	padding:40px 0;
+}
+.newsletter {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	padding-bottom:40px;
+	margin-bottom:40px;
+}
+.newsletter h2{
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 36px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom:10px;
+}
+.newsletter p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	text-align: center;
+}
+.newsletter-form{
+	max-width:570px;
+	margin:20px auto 0 auto;
+	width:100%;
+	display: flex;
+}
+.newsletter-form .form-control{
+	background: #FFFFFF;
+	border:none;
+	box-shadow:0;
+	color: #000000;
+	border-radius:0;
+	height:50px;
+}
+.newsletter-form button {
+	background: #ED1C24;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	border: none;
+	padding: 0 30px;
+}
+.newsletter-form button:hover{
+	background: #9A0007;
+	color: #FFFFFF;
+}
+.footer-box .social-icons{
+	margin-top:30px;
+}
+.footer-box .social-icons a {
+	margin-right: 15px;
+	margin-left:0;
+}
+.footer-box h4{
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 26px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom:30px;
+}
+.footer-box p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+}
+.footer-list a{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 14px;
+	color: #FFFFFF;
+	margin-bottom:15px;
+}
+.footer-list a:hover{
+	color: #ED1C24;
+}
+.footer-info h5{
+	color:#fff;
+	font-size:20px;
+	margin-bottom:10px;
+}
+.copyright {
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 40px;
+	padding-top: 40px;
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+.copyright a{
+	color:#ED1C24;
+	text-decoration: underline;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
