@@ -7,12 +7,12 @@ import "./css/owl.carousel.min.css"
 import "./css/style.css"
 import "./css/responsive.css"
 
-
-import "./js/jquery-3.7.0.min.js"
-	import "./js/bootstrap.bundle.min.js"
-	import "./js/owl.carousel.min.js"
-	import "./js/video.js"
-	import "./js/custom.js"
+import './js/jquery-3.7.0.min.js';
+  //import "./js/jquery-3.7.0.min.js"
+	//import "./js/bootstrap.bundle.min.js"
+	//import "./js/owl.carousel.min.js"
+	//import "./js/video.js"
+	//import "./js/custom.js"
 
 
 const inter = Inter({ subsets: ['latin'] })
