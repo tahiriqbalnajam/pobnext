@@ -7,8 +7,12 @@ import "../assets/css/magnific.min.css"
 import "../assets/css/spacing.min.css"
 import "../assets/css/slick.min.css"
 import "../assets/css/style.css"
+
+
+import Header from '@/components/Header.js'
+
 import Footer from '@/components/Footer.js'
 
 export default function DashboardLayout({ children }) {
-    return <body className=''>{children}<Footer /></body>;
+    return <body className=''><Header />{children}<Footer /></body>;
 }

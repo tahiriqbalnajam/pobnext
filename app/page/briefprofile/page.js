@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <>
             <div class="about-area py-120">
-                <div class="container">
+                <div class="container aboutus">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="about-image-part">
@@ -18,7 +18,7 @@ export default function Home() {
                                                 <i class="flaticon-charity"></i>
                                             </div>
                                             <div class="project-complete__content">
-                                                <h5>We Complate 15000+ Project</h5>
+                                                <h5>We Completed 293,242 Surgeries</h5>
                                                 <span>Donet for charity</span>
                                             </div>
                                         </div>
@@ -26,10 +26,7 @@ export default function Home() {
                                     <div class="col-sm-6">
                                         <div class="image mt-65 rmt-15 rel">
                                             <Image height='244' width='233' src="/images/about/contactus2.jpg" alt="About" />
-                                            <div class="experiences-years">
-                                                <span class="experiences-years__number">25</span>
-                                                <span class="experiences-years__text">Years Experiences</span>
-                                            </div>
+                                            
                                         </div>
                                         <div class="image">
                                             <Image height='183' width='243' src="/images/about/contactus3.jpg" alt="About" />
@@ -48,25 +45,25 @@ export default function Home() {
                                 <div class="counter-item counter-text-wrap mt-30">
                                     <div class="counter-item__icon"><i class="flaticon-solidarity"></i></div>
                                     <div class="counter-item__content">
-                                        <span class="count-text" data-speed="3000" data-stop="876000">0</span>
-                                        <span class="counter-title">Raised by 78,000 people in one year</span>
+                                        <span class="count-text" data-speed="3000" data-stop="876000">20,071,260</span>
+                                        <span class="counter-title">OPD done</span>
                                     </div>
                                 </div>
                                 <div class="counter-item counter-text-wrap">
                                     <div class="counter-item__icon counter-item__icon--green"><i class="flaticon-help"></i>
                                     </div>
                                     <div class="counter-item__content">
-                                        <span class="count-text" data-speed="3000" data-stop="45000">0</span>
-                                        <span class="counter-title">Volunteers are available to help you</span>
+                                        <span class="count-text" data-speed="3000" data-stop="45000">810</span>
+                                        <span class="counter-title">Free Eye Camps</span>
                                     </div>
                                 </div>
-                                <a class="btn ml-5 mt-25" href="#">Didcover more</a>
+                                <a href="#" class="btn-red">Discover More</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="contactus rows gap-60 align-items-center w-full flex justify-center">
+            <div className="aboutus rows mb-[80px] gap-60 align-items-center w-full flex justify-center">
                 <div className="col-lg-6">
                     <div className="contact-page-form form-style-two py-110 rpy-85">
                         <div className="section-title mb-10">
@@ -80,7 +77,6 @@ export default function Home() {
                                 </div>
                                 <div className="col-sm-12">
                                     <div className="form-group">
-                                    
                                         <input type="text" id="name" name="name" className="form-control" value=""
                                             placeholder="Username" required />
                                     </div>
@@ -108,7 +104,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-md-12">
                                     <div className="form-group mt-6 pt-10 mb-0 w-full flex justify-center">
-                                        <button type="submit" className="btn ">Send us a message</button>
+                                    <a href="#" class="btn-red">Send Message</a>
                                     </div>
                                 </div>
                             </div>
@@ -116,33 +112,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div class="why-choose-area overlay py-120 mt-[3.5rem]">
-                <div class="container">
-                    <div class="row gap-100 align-items-center">
-                        <div class="col-lg-6">
-                            <div class="why-choose-content text-white rmb-65">
-                                <div class="section-title mb-60">
-                                    <h2><span>PHILOSPHY</span></h2>
-                                </div>
-                                <div class="vission-mission-tab">
-                                    <div class="tab-content">
-                                        <div class="tab-pane fade show active" id="mission">As Muslim physicians, we are intended to accomplish our religious obligations by serving the humanity without discrimination of race, religion, ethnicity or any other affiliation of the recipients. In this way, we are trying to fulfill the requirements of the social contract between the society and medical professional. Deeply inspired by the Islamic values and principles, the trust is engaged in community based free eye care services with the support of motivated, dedicated and committed team of volunteers, ophthalmologists, health care professionals, philanthropists and donors.</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="why-choose-video">
-                                <div class="video rel">
-                                    <Image height='344' width='444' src="/images/philosophy.jpg" alt="Video" />
-                                </div>
-                                <Image height='50' width='50' class="leaf-shape top_image_bounce" src="/images/shapes/three-round-green.png"
-                                    alt="Shape" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        
         </>
     )
 }

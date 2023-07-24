@@ -3729,7 +3729,7 @@ ul li {
 }
 
 .project-complete {
-  top: 154px;
+  top: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4013,7 +4013,7 @@ ul li {
 
 .counter-item .counter-item__content .count-text {
   display: block;
-  font-size: 38px;
+  font-size: 26px;
   color: var(--heading-color);
 }
 
@@ -6262,7 +6262,7 @@ ul li {
 }
 
 .faq-three-left-part .counter-item {
-  top: 30%;
+  top: 36%;
   left: 0%;
   padding: 2px 13px 13px 13px;
   position: absolute;
@@ -8115,11 +8115,16 @@ ul li {
   background: linear-gradient(185deg, rgba(35, 35, 35, 0.41) -55%, #232323 55%);
 }
 
-.contactus .contact-page-form:before {
+.aboutus .contact-page-form:before {
   left: -37px;
 }
 
-.contactus .py-110 {
+.aboutus .py-110 {
   padding-bottom: 40px;
   padding-top: 40px;
+}
+
+
+.aboutus .project-complete {
+  top: 154px;
 }

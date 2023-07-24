@@ -7,46 +7,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <Header />
-      <section id="banner" className="w-full bg-[url(/images/banner-img.jpg)]">
-        <div className="container">
-          <div className="owl-carousel owl-theme banner-slider">
-            <div className="item">
-              <div className="banner-content">
-                <h4>Helping seniors by donate us!!</h4>
-                <h1>For just <span>7000</span> rupees</h1>
-                <p>one's sight can be restored.</p>
-                <div className="banner-btn">
-                  <a href="#" className="btn-white">Donate Now</a>
-                  <a href="#" className="btn-red">Contact Us</a>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="banner-content">
-                <h4>Helping seniors by donate us!!</h4>
-                <h1>For just <span>7000</span> rupees</h1>
-                <p>one's sight can be restored.</p>
-                <div className="banner-btn">
-                  <a href="#" className="btn-white">Donate Now</a>
-                  <a href="#" className="btn-red">Contact Us</a>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="banner-content">
-                <h4>Helping seniors by donate us!!</h4>
-                <h1>For just <span>7000</span> rupees</h1>
-                <p>one's sight can be restored.</p>
-                <div className="banner-btn">
-                  <a href="#" className="btn-white">Donate Now</a>
-                  <a href="#" className="btn-red">Contact Us</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <span className="banner-overlay"></span>
-      </section>
+    
 
       <section className="urgent-donation">
         <div className="container">

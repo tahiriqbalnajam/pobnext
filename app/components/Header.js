@@ -1,7 +1,9 @@
 import Image from 'next/image'
+import HeaderNavBar from '@/components/HeaderNavBar.js'
 
 export default function Header() {
     return (
+        <>
         <header className="header">
             <div className="container">
                 <div className="header-box">
@@ -48,37 +50,7 @@ export default function Header() {
                                     <Image height="50" width="50" src="/images/logo.png" alt="" />
                                 </a>
                                 <div className="navbar-collapse" id="navbarSupportedContent">
-                                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                                        <li className="nav-item">
-                                            <a className="nav-link active" href="#">Home</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="#">About Us</a>
-                                        </li>
-                                        <li className="nav-item dropdown">
-                                            <a className="nav-link dropdown-toggle" href="#" role="button"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                Projects
-                                            </a>
-                                            <ul className="dropdown-menu">
-                                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                                <li><a className="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="#">Eye Hospitals</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="#">Join</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="#">Gallery</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="#">Contact Us</a>
-                                        </li>
-                                    </ul>
+                                <HeaderNavBar />
                                 </div>
                                 <div className="header-btn">
                                     <a href="#">Donate Now</a>
@@ -94,5 +66,47 @@ export default function Header() {
                 </div>
             </div>
         </header>
+        <section id="banner" className="w-full bg-[url(/images/banner-img.jpg)]">
+        <div className="container">
+          <div className="owl-carousel owl-theme banner-slider">
+            <div className="item">
+              <div className="banner-content">
+                <h4>Helping seniors by donate us!!</h4>
+                <h1>For just <span>7000</span> rupees</h1>
+                <p>one's sight can be restored.</p>
+                <div className="banner-btn">
+                  <a href="#" className="btn-white">Donate Now</a>
+                  <a href="#" className="btn-red">Contact Us</a>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="banner-content">
+                <h4>Helping seniors by donate us!!</h4>
+                <h1>For just <span>7000</span> rupees</h1>
+                <p>one's sight can be restored.</p>
+                <div className="banner-btn">
+                  <a href="#" className="btn-white">Donate Now</a>
+                  <a href="#" className="btn-red">Contact Us</a>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="banner-content">
+                <h4>Helping seniors by donate us!!</h4>
+                <h1>For just <span>7000</span> rupees</h1>
+                <p>one's sight can be restored.</p>
+                <div className="banner-btn">
+                  <a href="#" className="btn-white">Donate Now</a>
+                  <a href="#" className="btn-red">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span className="banner-overlay"></span>
+        </section>
+        
+        </>
     )
 }

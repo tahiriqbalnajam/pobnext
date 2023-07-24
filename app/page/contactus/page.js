@@ -1,47 +1,18 @@
 import Image from 'next/image'
 
-
-//import "../../assets/js/nice-select.min.js"
-//import "../../assets/js/circle-progress.min.js"
-//import "../../assets/js/skill.bars.jquery.min.js"
-//import "../../assets/js/magnific.min.js"
-//import "../../assets/js/appear.min.js"
-//import "../../assets/js/isotope.min.js"
-//import "../../assets/js/imageload.min.js"
-//import "../../assets/js/slick.min.js"
-
 export default function Home() {
     return (
-        <>
-            <div className="bg-[url(/images/background/aboutusbanner.jpg)] page-banner-area bgs-cover overlay text-white py-165 rpy-125 rmt-65">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-xl-7 col-lg-8">
-                            <div className="breadcrumb-inner text-center">
-                                <h2 className="page-title">Contact Us</h2>
-                                <ul className="page-list">
-                                    <li><a href="index-2.html">Home</a></li>
-                                    <li>Contact Us</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <>  
             <div className="contact-page-area overflow-hidden py-120 rpt-100">
                 <div className="container flex">
                     <div className="rows gap-60 align-items-center contents">
                         <div className="col-lg-6">
                             <div className="faq-three-left-part mb-20 rel rmb-75">
                                 <Image height='520' width='481' src="/images/about/contactusimg.png" alt="Man" />
-                                <div className="experiences-years">
-                                    <span className="experiences-years__number">25</span>
-                                    <span className="experiences-years__text">Years Experiences</span>
-                                </div>
                                 <div className="counter-item counter-text-wrap">
                                     <div className="counter-item__content">
-                                        <span className="count-text" data-speed="3000" data-stop="80000">0</span>
-                                        <h5 className="counter-title">Volunteers</h5>
+                                        <span className="count-text" data-speed="3000" data-stop="80000">20,071,260</span>
+                                        <h5 className="counter-title">OPD</h5>
                                     </div>
                                 </div>
                                 <div className="project-complete">
@@ -49,7 +20,7 @@ export default function Home() {
                                         <i className="flaticon-charity"></i>
                                     </div>
                                     <div className="project-complete__content">
-                                        <h5>We Complate 15000+ Project</h5>
+                                        <h5>We Completed 293,242 Surgeries</h5>
                                         <span>Donet for charity</span>
                                     </div>
                                 </div>
@@ -96,7 +67,7 @@ export default function Home() {
                                         </div>
                                         <div className="col-md-12">
                                             <div className="form-group pt-10 mb-0">
-                                                <button type="submit" className="btn ml-5">Send us a message</button>
+                                            <a href="#" class="btn-red">Send Message</a>
                                             </div>
                                         </div>
                                     </div>
