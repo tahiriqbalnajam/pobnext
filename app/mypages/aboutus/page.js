@@ -66,7 +66,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="rows gap-60 align-items-center w-full flex justify-center">
+            <div className="contactus rows gap-60 align-items-center w-full flex justify-center">
                 <div className="col-lg-6">
                     <div className="contact-page-form form-style-two py-110 rpy-85">
                         <div className="section-title mb-10">
@@ -116,7 +116,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div class="why-choose-area overlay py-120">
+            <div class="why-choose-area overlay py-120 mt-[3.5rem]">
                 <div class="container">
                     <div class="row gap-100 align-items-center">
                         <div class="col-lg-6">
