@@ -9,8 +9,7 @@ import "./css/responsive.css"
 
 //import "node_modules/jquery/dist/jquery.min.js";
 //import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import "./js/custom.js"
-import "./js/video.js"
+
 
 const inter = Inter({ subsets: ['latin'] })
 
