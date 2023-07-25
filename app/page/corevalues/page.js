@@ -5,7 +5,7 @@ export default function Home() {
         <>
         <div className="features-area-three py-120 pb-55">
             <div className="section-title mb-50 text-center">
-                <h2><span className='text-black '>Objectives</span></h2>
+                <h2><span className='text-black '>OBJECTIVES</span></h2>
             </div>
             <div className="container">
                 <div className="row align-items-center">

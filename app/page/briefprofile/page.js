@@ -69,41 +69,37 @@ export default function Home() {
                         <div className="section-title mb-10">
                             <span className="section-title__subtitle mb-10">Need help</span>
                             <h2>Get In <span>Touch</span> </h2>
-                            
                         </div>
                         <form action="#">
                             <div className="row">
-                                <div className="col-sm-12 mb-10">
+                                <div className="col-sm-10 mb-10">
                                     <p>Donate a camp, donate a school screening, donate in POB Eye Hospitals, Volunteer with us.</p>
                                 </div>
-                                <div className="col-sm-12">
+                                <div className="col-sm-10">
                                     <div className="form-group">
                                         <input type="text" id="name" name="name" className="form-control" value=""
                                             placeholder="Username" required />
                                     </div>
                                 </div>
-                                <div className="col-sm-6">
+                                <div className="col-sm-5">
                                     <div className="form-group">
-                                
                                         <input type="email" id="email" name="email" className="form-control" value=""
                                             placeholder="Email" required />
                                     </div>
                                 </div>
-                                <div className="col-sm-6">
+                                <div className="col-sm-5">
                                     <div className="form-group">
-                                    
                                         <input type="text" id="phone_number" name="phone_number" className="form-control"
                                             value="" placeholder="Phone" />
                                     </div>
                                 </div>
-                                <div className="col-md-12">
+                                <div className="col-md-10">
                                     <div className="form-group">
-                                        
-                                        <textarea name="message" id="message" className="form-control" rows="2"
+                                        <textarea name="message" id="message" className="form-control" rows="6"
                                             placeholder="Your Message" required></textarea>
                                     </div>
                                 </div>
-                                <div className="col-md-12">
+                                <div className="col-md-10">
                                     <div className="form-group mt-6 pt-10 mb-0 w-full flex justify-center">
                                     <a href="#" class="btn-red">Send Message</a>
                                     </div>

@@ -13,7 +13,7 @@ export default function Header() {
                     <Link href="/" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Home</Link>
                     </li>
                     <li>
-                    <Link href="/page/briefprofile" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Brief Profile</Link>
+                    <Link href="/page/briefprofile" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Brief profile</Link>
                     </li>
                     <li>
                     <Link href="/page/philosophy" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Philosophy</Link>
@@ -22,7 +22,7 @@ export default function Header() {
                     <Link href="/page/contactus" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contact us</Link>
                     </li>
                     <li>
-                    <Link href="/page/corevalues" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Core Values</Link>
+                    <Link href="/page/corevalues" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Core values</Link>
                     </li>
                 </ul>
                 </div>
