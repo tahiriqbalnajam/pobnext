@@ -938,10 +938,7 @@ h2 {
     background: #EDF0FE;
 }
 
-.valunteer-item--green.valunteer-item__designation {
-    background-image: url(/images/valunteer/valunteer-des-bg-green.jpg);
-}
-
-.valunteer-item--yellow.valunteer-item__designation {
-    background-image: url(/images/valunteer/valunteer-des-bg-yellow.jpg);
+header ul li a:hover,
+header ul li a:focus{
+	color: #ED1C24 !important
 }

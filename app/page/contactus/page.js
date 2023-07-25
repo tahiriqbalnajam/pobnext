@@ -61,7 +61,7 @@ export default function Home() {
                                         <div className="col-md-12">
                                             <div className="form-group">
                                                 
-                                                <textarea name="message" id="message" className="form-control" rows="2"
+                                                <textarea name="message" id="message" className="form-control" rows="6"
                                                     placeholder="Your Message" required></textarea>
                                             </div>
                                         </div>
