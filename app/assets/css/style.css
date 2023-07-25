@@ -7115,7 +7115,7 @@ ul li {
   left: -65px;
   z-index: -1;
   position: absolute;
-  background: #FEF2F1;
+  
   width: calc(50vw + 65px);
   height: 100%;
 }
@@ -8127,4 +8127,15 @@ ul li {
 
 .aboutus .project-complete {
   top: 154px;
+}
+
+.betintouch{
+  background: #EDF0FE;
+}
+
+.philosophy2p {
+  background: #EDF0FE;
+  left: -31px;
+  position: relative;
+  color: black;
 }

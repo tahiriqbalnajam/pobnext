@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Home() {
     return (
         <>
-            <div class="about-area py-120">
+            <div class="about-area py-120 text-[black]">
                 <div class="container aboutus">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
@@ -37,11 +37,11 @@ export default function Home() {
                         </div>
                         <div class="col-lg-6">
                             <div class="about-content-part rmt-65">
-                                <div class="section-title mb-60">
+                                <div class="section-titles mb-20">
                                     
-                                    <h2><span>BRIEF PROFILE</span></h2>
+                                    <h2>BRIEF<span className='text-[#ED1C24]'> PROFILE</span></h2>
                                 </div>
-                                <p>Prevention of Blindness Trust is a registered charity working for the prevention and treatment of the avoidable causes of blindness focusing on the deprived and marginalized communities. Since its inception in July 2007, the trust has been providing free-of-cost diagnostic and surgical eye care services in remote and deprived areas of 'Pakistan' and different 'African' countries. We have established a strong network of volunteer ophthalmologists, eye care professionals, donors, and community-based workers. We safely assume that our services have covered millions of people and contributed to social and economic development.</p>
+                                <p className='pb-[16px]'>Prevention of Blindness Trust is a registered charity working for the prevention and treatment of the avoidable causes of blindness focusing on the deprived and marginalized communities. Since its inception in July 2007, the trust has been providing free-of-cost diagnostic and surgical eye care services in remote and deprived areas of 'Pakistan' and different 'African' countries. We have established a strong network of volunteer ophthalmologists, eye care professionals, donors, and community-based workers. We safely assume that our services have covered millions of people and contributed to social and economic development.</p>
                                 <div class="counter-item counter-text-wrap mt-30">
                                     <div class="counter-item__icon"><i class="flaticon-solidarity"></i></div>
                                     <div class="counter-item__content">
@@ -63,16 +63,17 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="aboutus rows mb-[80px] gap-60 align-items-center w-full flex justify-center">
+            <div className="betintouch aboutus rows mb-[80px] gap-60 align-items-center w-full flex justify-center text-[black]">
                 <div className="col-lg-6">
                     <div className="contact-page-form form-style-two py-110 rpy-85">
                         <div className="section-title mb-10">
                             <span className="section-title__subtitle mb-10">Need help</span>
-                            <h3>Get In touch</h3>
+                            <h2>Get In <span>Touch</span> </h2>
+                            
                         </div>
                         <form action="#">
                             <div className="row">
-                                <div className="col-xl-9 mb-10">
+                                <div className="col-sm-12 mb-10">
                                     <p>Donate a camp, donate a school screening, donate in POB Eye Hospitals, Volunteer with us.</p>
                                 </div>
                                 <div className="col-sm-12">

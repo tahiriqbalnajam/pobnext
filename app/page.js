@@ -7,8 +7,6 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <Header />
-    
-
       <section className="urgent-donation">
         <div className="container">
           <div className="row">
