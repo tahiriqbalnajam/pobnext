@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Home() {
     return (
         <>
-            <div class="why-choose-area mb-[80px] overlay py-120 mt-[3.5rem]">
+            <div class="why-choose-area mb-[80px] overlay py-120">
                 <div class="container">
                     <div class="row gap-100 align-items-center">
                         <div class="col-lg-6">
@@ -13,7 +13,7 @@ export default function Home() {
                                 </div>
                                 <div class="vission-mission-tab">
                                     <div class="tab-content">
-                                        <div class="tab-pane fade show active" id="mission">As Muslim physicians, our mission is to serve humanity without discrimination, guided by Islamic principles. We provide community-based, free eye care services, driven by our commitment to compassion, equality, and social justice. With a dedicated team of volunteers, ophthalmologists, healthcare professionals, philanthropists, and donors, we strive to improve the lives of individuals who lack access to eye care. </div>
+                                        <div class="tab-pane fade show active text-[18px]" id="mission">As Muslim physicians, our mission is to serve humanity without discrimination, guided by Islamic principles. We provide community-based, free eye care services, driven by our commitment to compassion, equality, and social justice. With a dedicated team of volunteers, ophthalmologists, healthcare professionals, philanthropists, and donors, we strive to improve the lives of individuals who lack access to eye care. </div>
                                     </div>
                                 </div>
                             </div>
