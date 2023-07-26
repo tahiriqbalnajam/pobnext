@@ -63,6 +63,95 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+
+            <div class="our-event-area pt-120 pb-95 rel z-1">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-lg-8 col-md-10">
+                            <div class="section-title text-center mb-65">
+                                <h3>Events <span> Held</span></h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row events-active">
+                        <div class="col-xl-4 col-md-6 item">
+                            <div class="event-item">
+                                <Image height='457' width='416' src="/images/briefprofileevent1.jpg" alt="Event" />
+                                <div class="event-item__hover">
+                                    <h4><a href="event-details.html">Free Eye Camp held in Tank DI Khan</a></h4>
+                                    <ul>
+                                        <li><i class="flaticon-time"></i> <span>14 January 2022</span></li>
+                                        <li><span><b>OPD:</b> 700 <b>Surgeries:</b> 800</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 item">
+                            <div class="event-item">
+                                <Image height='323' width='416' src="/images/briefprofileevent2.jpg" alt="Event" />
+                                <div class="event-item__hover">
+                                    <h4><a href="event-details.html">Free Eye Camp held in Bhera</a></h4>
+                                    <ul>
+                                        <li><i class="flaticon-time"></i> <span>15 January 2022</span></li>
+                                        <li><span><b>OPD:</b> 700 <b>Surgeries:</b> 18</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 item">
+                            <div class="event-item">
+                                <Image height='437' width='416' src="/images/briefprofileevent3.jpg" alt="Event" />
+                                <div class="event-item__hover">
+                                    <h4><a href="event-details.html">Khursheed Begubm School, Baidian road Lahore</a></h4>
+                                    <ul>
+                                        <li><i class="flaticon-time"></i> <span>24 – 27 January 2022</span></li>
+                                        <li><span><b>OPD:</b> 1036 <b>Surgeries:</b> 236</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 item relative top-[23px]">
+                            <div class="event-item">
+                                <Image height='313' width='416' src="/images/briefprofileevent4.jpg" alt="Event" />
+                                <div class="event-item__hover">
+                                    <h4><a href="event-details.html">Free Eye Camp held in Lahore</a></h4>
+                                    <ul>
+                                        <li><i class="flaticon-time"></i> <span>26 February 2022</span></li>
+                                        <li><span><b>OPD:</b> 120 </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 item relative top-[-95px]">
+                            <div class="event-item">
+                                <Image height='547' width='516' src="/images/briefprofileevent5.jpg" alt="Event" />
+                                <div class="event-item__hover">
+                                    <h4><a href="event-details.html">Free Eye Camp held in Bhera</a></h4>
+                                    <ul>
+                                        <li><i class="flaticon-time"></i> <span>08 – 09 February 2022</span></li>
+                                        <li><span><b>OPD:</b> 769 <b>Surgeries:</b> 120</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 item ">
+                            <div class="event-item">
+                                <Image height='416' width='337' src="/images/briefprofileevent6.jpg" alt="Event" />
+                                <div class="event-item__hover">
+                                    <h4><a href="event-details.html">Free Eye Camp held in Nishat Colony Lahore</a></h4>
+                                    <ul>
+                                        <li><i class="flaticon-time"></i> <span>13 February 202</span></li>
+                                        <li><span><b>OPD:</b> 550 <b>Surgeries:</b> 13</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
             <div className="betintouch aboutus rows py-8 align-items-center w-full flex justify-center text-[black]">
                 <div className="col-lg-6">
                     <div className="contact-page-form form-style-two py-110 rpy-85">

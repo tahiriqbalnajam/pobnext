@@ -24,6 +24,9 @@ export default function Header() {
                     <li>
                     <Link href="/page/corevalues" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Core values</Link>
                     </li>
+                    <li>
+                    <Link href="/page/boardoftrustees" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Board of trustees</Link>
+                    </li>
                 </ul>
                 </div>
             </div>

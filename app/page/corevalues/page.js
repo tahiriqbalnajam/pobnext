@@ -28,7 +28,7 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <div class="become-volunteer-three pt-90 pb-120 rel z-1">
+        <div class="become-volunteer-three pb-120 rel z-1">
             <div class="container">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-lg-6">

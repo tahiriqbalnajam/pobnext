@@ -940,5 +940,14 @@ h2 {
 
 header ul li a:hover,
 header ul li a:focus{
-	color: #ED1C24 !important
+	color: #ED1C24 !important;
+}
+
+.valunteer-two-item .valunteer-two-item__des {
+    min-height: 118px;
+}
+
+.philosophylastp{
+	padding-left: 50px !important;
+	padding-right: 50px !important;
 }
