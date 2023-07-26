@@ -151,7 +151,6 @@ export default function Home() {
                 </div>
             </div>
 
-
             <div className="betintouch aboutus rows py-8 align-items-center w-full flex justify-center text-[black]">
                 <div className="col-lg-6">
                     <div className="contact-page-form form-style-two py-110 rpy-85">

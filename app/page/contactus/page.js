@@ -29,7 +29,7 @@ export default function Home() {
                         <div className="col-lg-6">
                             <div className="contact-page-form form-style-two pt-[26px] pb-110 rpy-85">
                                 <div className="section-title mb-10">
-                                    <span className="section-title__subtitle mb-10">Need help</span>
+                                    <span className="section-title__subtitle mb-10"> </span>
                                     <h3>Get In touch</h3>
                                 </div>
                                 <form action="#">

@@ -124,8 +124,8 @@ export default function Home() {
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-8 col-md-10">
-                        <div class="section-title text-center mb-60">
-                            <h2>NATIONAL WORKING <span>COUNCIL</span></h2>
+                        <div class="section-titleS text-center mb-60">
+                            <h2>NATIONAL <span className='text-[#ED1C24]'>WORKING </span>COUNCIL</h2>
                         </div>
                     </div>
                 </div>
