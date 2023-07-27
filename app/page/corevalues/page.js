@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <>
         <div className="features-area-three py-120 pb-55">
-            <div className="section-title mb-50 text-center">
+            <div className="section-titles mb-50 text-center">
                 <h2><span className='text-black '>OBJECTIVES</span></h2>
             </div>
             <div className="container">

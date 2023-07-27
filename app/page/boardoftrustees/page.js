@@ -17,7 +17,7 @@ export default function Home() {
                         <div class="col-md-3 col-sm-6">
                             <div class="our-team">
                                 <div class="pic">
-                                <Image height='150' width='150' src="/images/Prof.Dr.IntzarHussain.jpg" alt="Volunteer" />
+                                <Image height='212' width='212' src="/images/Prof.Dr.IntzarHussain1.jpg" alt="Volunteer" />
                                 </div>
                                 <h3 class="title">Chairman</h3>
                                 <span class="post">Prof. Dr. Intzar Hussain</span>
@@ -27,7 +27,7 @@ export default function Home() {
                         <div class="col-md-3 col-sm-6">
                             <div class="our-team">
                                 <div class="pic">
-                                <Image height='150' width='150' src="/images/ZahidLatif.jpg" alt="Volunteer" />
+                                <Image height='150' width='150' src="/images/ZahidLatif1.jpg" alt="Volunteer" />
                                 </div>
                                 <h3 class="title">General Secretary</h3>
                                 <span class="post">Prof. Dr. M.Zahid Latif</span>
@@ -36,7 +36,7 @@ export default function Home() {
                         <div class="col-md-3 col-sm-6">
                             <div class="our-team">
                                 <div class="pic">
-                                <Image height='150' width='150' src="/images/Dr.ShafqatJaved.jpg" alt="Volunteer" />
+                                <Image height='150' width='150' src="/images/Dr.ShafqatJaved1.jpg" alt="Volunteer" />
                                 </div>
                                 <h3 class="title">Finance Secretary</h3>
                                 <span class="post">Dr. Shafqat Javed</span>
@@ -45,7 +45,7 @@ export default function Home() {
                         <div class="col-md-3 col-sm-6">
                             <div class="our-team">
                                 <div class="pic">
-                                <Image height='150' width='150' src="/images/dummyimage.jpg" alt="Volunteer" />
+                                <Image height='150' width='150' src="/images/dummyimage1.jpg" alt="Volunteer" />
                                 </div>
                                 <h3 class="title">Member</h3>
                                 <span class="post">Dr. Kunwar Usman Saeed</span>
@@ -58,7 +58,7 @@ export default function Home() {
                         <div class="col-md-3 col-sm-6">
                             <div class="our-team">
                                 <div class="pic">
-                                <Image height='150' width='150' src="/images/dummyimage.jpg" alt="Volunteer" />
+                                <Image height='150' width='150' src="/images/dummyimage1.jpg" alt="Volunteer" />
                                 </div>
                                 <h3 class="title">Member</h3>
                                 <span class="post">Dr. Tahir Farooq</span>
@@ -68,7 +68,7 @@ export default function Home() {
                         <div class="col-md-3 col-sm-6">
                             <div class="our-team">
                                 <div class="pic">
-                                <Image height='150' width='150' src="/images/Prof.Dr.HafeezUrRahman.jpg" alt="Volunteer" />
+                                <Image height='150' width='150' src="/images/Prof.Dr.HafeezUrRahman1.jpg" alt="Volunteer" />
                                 </div>
                                 <h3 class="title">Member</h3>
                                 <span class="post">Prof. Dr. Hafeez Ur Rahman</span>
@@ -77,10 +77,10 @@ export default function Home() {
                         <div class="col-md-3 col-sm-6">
                             <div class="our-team">
                                 <div class="pic">
-                                <Image height='150' width='150' src="/images/Dr.TanvirUlHasanZubairi.jpg" alt="Volunteer" />
+                                <Image height='150' width='150' src="/images/Dr.TanvirUlHasanZubairi1.jpg" alt="Volunteer" />
                                 </div>
                                 <h3 class="title">Member</h3>
-                                <span class="post">DDr. Tanvir Ul Hasan Zubairi</span>
+                                <span class="post">Dr. Tanvir Ul Hasan Zubairi</span>
                             </div>
                         </div>
                         
@@ -91,7 +91,7 @@ export default function Home() {
                         <div class="col-md-3 col-sm-6">
                             <div class="our-team">
                                 <div class="pic">
-                                <Image height='150' width='150' src="/images/dummyimage.jpg" alt="Volunteer" />
+                                <Image height='150' width='150' src="/images/dummyimage1.jpg" alt="Volunteer" />
                                 </div>
                                 <h3 class="title">Member</h3>
                                 <span class="post">Dr. Wali Muhamamd Mujahid</span>
@@ -101,7 +101,7 @@ export default function Home() {
                         <div class="col-md-3 col-sm-6">
                             <div class="our-team">
                                 <div class="pic">
-                                <Image height='150' width='150' src="/images/dummyimage.jpg" alt="Volunteer" />
+                                <Image height='150' width='150' src="/images/dummyimage1.jpg" alt="Volunteer" />
                                 </div>
                                 <h3 class="title">Member</h3>
                                 <span class="post">Dr. Ahmad Khan</span>
@@ -125,7 +125,7 @@ export default function Home() {
                 <div class="col-xl-3 col-sm-6">
                     <div class="valunteer-item valunteer-item--three">
                         <div class="valunteer-item__img">
-                        <Image height='150' width='150' src="/images/Prof.Dr.IntzarHussain.jpg" alt="Volunteer" />
+                        <Image height='150' width='150' src="/images/Prof.Dr.IntzarHussain1.jpg" alt="Volunteer" />
                         </div>
                         <div class="valunteer-item__designation">
                             <h5>Member</h5>
@@ -136,7 +136,7 @@ export default function Home() {
                 <div class="col-xl-3 col-sm-6">
                     <div class="valunteer-item valunteer-item--three">
                         <div class="valunteer-item__img">
-                            <Image height='150' width='150' src="/images/ZahidLatif.jpg" alt="Volunteer" />
+                            <Image height='150' width='150' src="/images/ZahidLatif1.jpg" alt="Volunteer" />
                         </div>
                         <div class="valunteer-item__designation">
                             <h5>Member</h5>
@@ -147,7 +147,7 @@ export default function Home() {
                 <div class="col-xl-3 col-sm-6">
                     <div class="valunteer-item valunteer-item--three">
                         <div class="valunteer-item__img">
-                        <Image height='150' width='150' src="/images/Dr.ShafqatJaved.jpg" alt="Volunteer" />
+                        <Image height='150' width='150' src="/images/Dr.ShafqatJaved1.jpg" alt="Volunteer" />
                         </div>
                         <div class="valunteer-item__designation">
                             <h5>Member</h5>
@@ -158,7 +158,7 @@ export default function Home() {
                 <div class="col-xl-3 col-sm-6">
                     <div class="valunteer-item valunteer-item--three">
                         <div class="valunteer-item__img">
-                        <Image height='150' width='150' src="/images/dummyimage.jpg" alt="Volunteer" />
+                        <Image height='150' width='150' src="/images/dummyimage1.jpg" alt="Volunteer" />
                         </div>
                         <div class="valunteer-item__designation">
                             <h5>Member</h5>
@@ -169,7 +169,7 @@ export default function Home() {
                 <div class="col-xl-3 col-sm-6">
                     <div class="valunteer-item valunteer-item--three">
                         <div class="valunteer-item__img">
-                        <Image height='150' width='150' src="/images/dummyimage.jpg" alt="Volunteer" />
+                        <Image height='150' width='150' src="/images/dummyimage1.jpg" alt="Volunteer" />
                         </div>
                         <div class="valunteer-item__designation">
                             <h5>Member</h5>
@@ -180,7 +180,7 @@ export default function Home() {
                 <div class="col-xl-3 col-sm-6">
                     <div class="valunteer-item valunteer-item--three">
                         <div class="valunteer-item__img">
-                        <Image height='150' width='150' src="/images/Prof.Dr.HafeezUrRahman.jpg" alt="Volunteer" />
+                        <Image height='150' width='150' src="/images/Prof.Dr.HafeezUrRahman1.jpg" alt="Volunteer" />
                         </div>
                         <div class="valunteer-item__designation">
                             <h5>Member</h5>
