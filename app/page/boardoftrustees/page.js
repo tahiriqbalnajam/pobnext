@@ -8,7 +8,7 @@ export default function Home() {
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-8 col-md-10">
                         <div class="section-titles text-center mb-60">
-                            <h2>Board OF <span className='text-[red]'>TRUSTEES</span></h2>
+                            <h2>BOARD OF <span className='text-[red]'>TRUSTEES</span></h2>
                         </div>
                     </div>
                 </div>
