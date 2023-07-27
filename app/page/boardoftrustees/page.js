@@ -7,13 +7,13 @@ export default function Home() {
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-8 col-md-10">
-                        <div class="section-title text-center mb-60">
-                            <h2>Board OF <span>TRUSTEES</span></h2>
+                        <div class="section-titles text-center mb-60">
+                            <h2>BOARD <span className='text-[red]'>OF </span> TRUSTEES</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-xl-3 col-sm-6">
+                    <div class="col-xl-4 paddingright col-sm-3">
                         <div class="valunteer-two-item">
                             <div class="valunteer-two-item__img">
                                 <Image height='150' width='150' src="/images/Prof.Dr.IntzarHussain.jpg" alt="Volunteer" />
@@ -24,7 +24,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-sm-6">
+                    <div class="col-xl-4 paddingleftright col-sm-3">
                         <div class="valunteer-two-item">
                             <div class="valunteer-two-item__img">
                                 <Image height='150' width='150' src="/images/ZahidLatif.jpg" alt="Volunteer" />
@@ -35,7 +35,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-sm-6">
+                    <div class="col-xl-4 paddingleft col-sm-3">
                         <div class="valunteer-two-item">
                             <div class="valunteer-two-item__img">
                                 <Image height='150' width='150' src="/images/Dr.ShafqatJaved.jpg" alt="Volunteer" />
@@ -48,7 +48,7 @@ export default function Home() {
                 </div>
                     </div>
                 <div class="row justify-content-center">
-                    <div class="col-xl-3 col-sm-6">
+                    <div class="col-xl-4 col-sm-6">
                         <div class="valunteer-two-item">
                             <div class="valunteer-two-item__img">
                                 <Image height='150' width='150' src="/images/dummyimage.jpg" alt="Volunteer" />
@@ -59,7 +59,7 @@ export default function Home() {
                             </div>
                         </div>
                 </div>
-                    <div class="col-xl-3 col-sm-6">
+                    <div class="col-xl-4 col-sm-6">
                         <div class="valunteer-two-item">
                             <div class="valunteer-two-item__img">
                                 <Image height='150' width='150' src="/images/dummyimage.jpg" alt="Volunteer" />
@@ -70,7 +70,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-sm-6">
+                    <div class="col-xl-4 col-sm-6">
                         <div class="valunteer-two-item">
                             <div class="valunteer-two-item__img">
                                 <Image height='150' width='150' src="/images/Prof.Dr.HafeezUrRahman.jpg" alt="Volunteer" />
@@ -83,7 +83,7 @@ export default function Home() {
                     </div>
                    </div>
                 <div class="row justify-content-center">
-                    <div class="col-xl-3 col-sm-6">
+                    <div class="col-xl-4 col-sm-6">
                         <div class="valunteer-two-item">
                             <div class="valunteer-two-item__img">
                                 <Image height='150' width='150' src="/images/Dr.TanvirUlHasanZubairi.jpg" alt="Volunteer" />
@@ -94,7 +94,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-sm-6">
+                    <div class="col-xl-4 col-sm-6">
                         <div class="valunteer-two-item">
                             <div class="valunteer-two-item__img">
                                 <Image height='150' width='150' src="/images/dummyimage.jpg" alt="Volunteer" />
@@ -105,7 +105,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-sm-6">
+                    <div class="col-xl-4 col-sm-6">
                         <div class="valunteer-two-item">
                             <div class="valunteer-two-item__img">
                                 <Image height='150' width='150' src="/images/dummyimage.jpg" alt="Volunteer" />

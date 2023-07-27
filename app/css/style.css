@@ -951,3 +951,16 @@ header ul li a:focus{
 	padding-left: 50px !important;
 	padding-right: 50px !important;
 }
+
+.paddingleftright {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+}
+
+.paddingright{
+	margin-right: 2rem !important;
+}
+
+.paddingleft{
+	margin-left: 2rem !important;
+}

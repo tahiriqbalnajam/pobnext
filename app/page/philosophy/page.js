@@ -8,7 +8,7 @@ export default function Home() {
                     <div class="row gap-100 align-items-center">
                         <div class="col-lg-6">
                             <div class="why-choose-content text-white rmb-65">
-                                <div class="section-title mb-60">
+                                <div class="section-titles mb-60">
                                     <h2><span>PHILOSPHY</span></h2>
                                 </div>
                                 <div class="vission-mission-tab">
