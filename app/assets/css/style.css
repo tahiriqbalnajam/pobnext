@@ -4689,9 +4689,9 @@ ul li {
 
 .valunteer-item--three .valunteer-item__img:before {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(-19.55%, transparent), color-stop(79.89%, var(--green-color)));
-  background: -webkit-linear-gradient(top, transparent -19.55%, var(--green-color) 79.89%);
-  background: -o-linear-gradient(top, transparent -19.55%, var(--green-color) 79.89%);
-  background: linear-gradient(180deg, transparent -19.55%, var(--green-color) 79.89%);
+  background: -webkit-linear-gradient(top, transparent -19.55%, var(#ED1C24) 79.89%);
+  background: -o-linear-gradient(top, transparent -19.55%, var(#ED1C24) 79.89%);
+  background: linear-gradient(180deg, transparent -19.55%, var(#ED1C24) 79.89%);
 }
 
 .valunteer-item--three .valunteer-item__designation {
