@@ -1053,3 +1053,58 @@ header ul li a:focus{
 
 
 
+.corevaluestrn:after {
+    left: 38% !important;
+    bottom: 21% !important;
+    border: 30px solid #0146d2 !important;
+}
+
+.corevaluestrn:before {
+	height: 49% !important;
+    left: 5% !important;
+    top: 49% !important;
+ 
+    border: 2px dashed var(--bs-blue)!important;
+	border-bottom: 2px dashed #0146d2 !important;
+	border-top: none !important;
+}
+
+.corevalueslast:before {
+    left: 49% !important;
+    top: 0 !important;
+    border: 2px dashed var(#ED1C24) !important;
+	border-bottom: 2px dashed #ED1C24 !important;
+	height: 70% !important;
+}
+
+.corevalueslast:after {
+	left: 92% !important;
+    bottom: 73% !important;
+}
+
+.corevalues1st:before {
+	height: 57% !important;
+    width: 60% !important;
+    left: 52% !important;
+    top: -31px !important;
+	border: 2px dashed var(--bs-blue) !important;
+	border-bottom: 2px dashed #0146d2 !important;
+}
+.corevalues1st:after {
+	bottom: 16% !important;
+	left: -27px !important;
+}
+
+.corevalues1sts:after {
+	left: 89% !important;
+    bottom: unset !important;
+    top: 76px !important;
+	border: 30px solid #0146d2 !important;
+}
+.corevalues1sts:before {
+	height: 768% !important;
+	width: 60% !important;
+	left: -17% !important;
+	top: 346px !important;
+	border-bottom: 2px dashed #ED1C24 !important;
+}
