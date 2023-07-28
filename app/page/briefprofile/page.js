@@ -11,7 +11,7 @@ export default function Home() {
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="image">
-                                            <Image height='333' width='243' src="/images/about/contactus1-1.jpg" alt="About" />
+                                            <Image className='transition duration-700 ease-in-out  hover:scale-110' height='333' width='243' src="/images/about/contactus1-1.jpg" alt="About" />
                                         </div>
                                         <div class="project-complete mb-30">
                                             <div class="project-complete__icon">
@@ -25,11 +25,11 @@ export default function Home() {
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="image mt-65 rmt-15 rel">
-                                            <Image height='244' width='233' src="/images/about/contactus2.jpg" alt="About" />
+                                            <Image className='transition duration-700 ease-in-out  hover:scale-110' height='244' width='233' src="/images/about/contactus2.jpg" alt="About" />
                                             
                                         </div>
                                         <div class="image">
-                                            <Image height='183' width='243' src="/images/about/contactus3.jpg" alt="About" />
+                                            <Image className='transition duration-700 ease-in-out  hover:scale-110' height='183' width='243' src="/images/about/contactus3.jpg" alt="About" />
                                         </div>
                                     </div>
                                 </div>

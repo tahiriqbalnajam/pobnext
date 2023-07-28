@@ -12,7 +12,6 @@ export default function Home() {
                 <div class="col-xl-12 flex">
                     <div className="col-xl-5 col-sm-6 text-black">
                         <div className="feature-three-content-part pb-35">
-                            
                             <p className='text-[18px] mt-[156px]'>To provide free of cost, state of the art eye care services in the remote and deprived areas.</p>
                             <p className='text-[18px]'>To make arrangements for the prevention, education and treatment of eye diseases.</p>
                             <p className='text-[18px]'>To establish community based, sustainable and quality oriented eye care centers.</p>
@@ -21,7 +20,7 @@ export default function Home() {
                     </div>
                     <div className="pl-[4rem] col-xl-7 col-sm-6 pt-[29px]">
                         <div className="feature-three-image-part pb-65">
-                            <Image height='694' width='658' src="/images/corevaluesn.png" alt="Features" />
+                            <Image className=' transition duration-700 ease-in-out  hover:scale-110 ' height='694' width='658' src="/images/corevaluesn.png" alt="Features"  />
                         </div>
                     </div>
                 </div>
@@ -33,8 +32,8 @@ export default function Home() {
                     <div class="row align-items-center justify-content-between">
                         <div class="col-lg-6">
                             <div class="volunteer-left-video rel rmb-75">
-                                <Image height='683' width='437' src="/images/gallary1.jpg" alt="valunteer" />
-                                <Image className='relative top-[-14px] left-[65%]' height='263' width='211' src="/images/gallary4.jpg" alt="valunteer" />
+                                <Image height='683' width='437' src="/images/gallary1.jpg" alt="valunteer" className=' transition duration-700 ease-in-out  hover:scale-110 ' />
+                                <Image className='relative top-[-14px] left-[65%]  transition duration-700 ease-in-out  hover:scale-110 ' height='263' width='211' src="/images/gallary4.jpg" alt="valunteer" />
                             </div>
                         </div>
                         <div class="col-lg-6 text-black">

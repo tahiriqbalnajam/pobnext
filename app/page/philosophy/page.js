@@ -42,18 +42,18 @@ export default function Home() {
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="image">
-                                            <Image height='393' width='287' src="/images/gallary6.jpg" alt="About" />
+                                            <Image className='transition duration-700 ease-in-out  hover:scale-110' height='393' width='287' src="/images/gallary6.jpg" alt="About" />
                                         </div>
                                         <div class="image">
-                                            <Image height='287' width='215' src="/images/gallary1.jpg" alt="About" />
+                                            <Image className='transition duration-700 ease-in-out  hover:scale-110' height='287' width='215' src="/images/gallary1.jpg" alt="About" />
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="image">
-                                            <Image height='287' width='274' src="/images/gallary5.jpg" alt="About" />
+                                            <Image className='transition duration-700 ease-in-out  hover:scale-110' height='287' width='274' src="/images/gallary5.jpg" alt="About" />
                                         </div>
                                         <div class="image">
-                                            <Image height='287' width='215' src="/images/about/contactus3.jpg" alt="About" />
+                                            <Image className='transition duration-700 ease-in-out  hover:scale-110' height='287' width='215' src="/images/about/contactus3.jpg" alt="About" />
                                             <Image height='50' width='50' class="shape two right_image_bounce"
                                                 src="/images/shapes/three-round-red.png" alt="Shape" />
                                         </div>
@@ -82,8 +82,8 @@ export default function Home() {
                             </div>
                             <div class="col-lg-6">
                                 <div class="volunteer-left-video rel rmb-75">
-                                    <Image height='683' width='437' src="/images/gallary4.jpg" alt="valunteer" />
-                                    <Image className='relative top-[-64px] left-[-34%]' height='263' width='211' src="/images/gallary1.jpg" alt="valunteer" />
+                                    <Image className='transition duration-700 ease-in-out  hover:scale-110' height='683' width='437' src="/images/gallary4.jpg" alt="valunteer" />
+                                    <Image className='relative top-[-64px] left-[-34%] transition duration-700 ease-in-out  hover:scale-110' height='263' width='211' src="/images/gallary1.jpg" alt="valunteer" />
                                 </div>
                             </div>
                         </div>
