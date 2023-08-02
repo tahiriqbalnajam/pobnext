@@ -28,10 +28,9 @@ export default function Home() {
                         </div>
                         <div className="col-lg-6">
                             <div className="contact-page-form form-style-two pt-[26px] pb-110 rpy-85">
-                                <div className="section-title mb-10">
-                                    <span className="section-title__subtitle mb-10"> </span>
-                                    <h3>Get In touch</h3>
-                                </div>
+                                <div className='about-info-text mb-[20px]'>
+                                <h2>GET <span>IN </span> TOUCH</h2></div>
+                               
                                 <form action="#">
                                     <div className="row">
                                         <div className="col-xl-9 mb-10">
