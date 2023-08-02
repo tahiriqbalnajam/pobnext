@@ -13,14 +13,14 @@ export default function Home() {
                                     <div className='about-info-text mb-[25px]'>
                                         <h2>PHILOSPHY <span></span> <br /></h2>
                                     </div>
-                                    <p className="mb-8 pb-2 text-black dark:text-neutral-300 lg:pb-0 text-[18px]">
+                                    <p className="mb-8 pb-2 text-black dark:text-neutral-300 lg:pb-0 text-[18px] about-image-part philosophy1st">
                                     As Muslim physicians, our mission is to serve humanity without discrimination, guided by Islamic principles.<br /><br />
                                     We provide community-based, free eye care services, driven by our commitment to compassion, equality, and social justice.<br /><br />
                                     With a dedicated team of volunteers, ophthalmologists, healthcare professionals, philanthropists, and donors, we strive to improve the lives of individuals who lack access to eye care.<br /><br />
                                     </p>          
                                 </div>
                             </div>
-                            <div>
+                            <div className=''>
                             <Image height='725' width='488' src="/images/philosopphymain.png"
                                 className="transition duration-700 ease-in-out  hover:scale-110 w-full rounded-lg shadow-lg dark:shadow-black/20" alt="image" />
                             </div>
@@ -63,7 +63,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="container my-24 mx-auto md:px-6">
+            <div className="container mb-[187px] mt-[155px] mx-auto md:px-6">
                 <div className="default-heading center">
                     <h2>Our goal</h2>
                     <span className="heading-line1"></span>
@@ -93,7 +93,7 @@ export default function Home() {
                             </div>
                             <div className="mb-12 lg:mb-0 relative left-[-47px]">
                                 <div className="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14">
-                                    <p className="mb-8 pb-2 text-black dark:text-neutral-300 lg:pb-0 text-[18px]">
+                                    <p className="mb-8 pb-2 text-black dark:text-neutral-300 lg:pb-0 text-[18px] about-image-part philosophy2nd">
                                         Together with our volunteers and supporters, we aim to create a more compassionate, inclusive, and equitable society.<br /><br />
                                         Our ultimate goal is to ensure that quality eye care is accessible to all individuals, regardless of their socio-economic background.
                                     </p>          

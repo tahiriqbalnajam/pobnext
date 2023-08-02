@@ -1108,3 +1108,23 @@ header ul li a:focus{
 	top: 346px !important;
 	border-bottom: 2px dashed #ED1C24 !important;
 }
+
+.philosophy1st:after {
+	left: 402px !important;
+    bottom: -42% !important;
+}
+
+
+.philosophy1st:before {
+	content: none !important;
+}
+
+.philosophy2nd:after {
+	left: 24% !important;
+    bottom: -69% !important;
+	border: 30px solid #0146d2 !important;
+}
+
+.philosophy2nd:before {
+	content: none !important;
+}
