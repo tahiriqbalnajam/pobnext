@@ -1128,3 +1128,59 @@ header ul li a:focus{
 .philosophy2nd:before {
 	content: none !important;
 }
+.philosophy2nd{
+	padding-top: 0 !important;
+}
+
+.testimonial-item-three .author img {
+    width: 200px !important;
+    height: 200px !important;
+
+}
+
+
+.testimonial-item-three .author img:hover,
+.testimonial-item-three .author img:focus {
+    border: 8px solid #004fa3 !important;
+}
+
+.sndleadership{
+	margin-top: 70px !important;
+}
+
+
+.history1stsection:before,
+.history1stsection:after{
+	content: unset !important;
+}
+
+.imagewithcolor {
+    border-color: rgb(255 255 255/var(--tw-border-opacity));
+    --tw-bg-opacity: 0.1;
+    --tw-border-opacity: 0.1;
+    background: #004fa3;
+    height: 50%;
+    width: 50%;
+    z-index: -3;
+    border-radius: 25px;
+    border-top: rou;
+    position: absolute;
+    top: -3%;
+    left: -10px;
+    border-color: rgb(255 255 255/var(--tw-border-opacity));
+}
+
+.imagewithcolorblue {
+    background: #ED1C24;
+    --tw-bg-opacity: 0.1;
+    --tw-border-opacity: 0.1;
+    height: 32%;
+    width: 31%;
+    z-index: -3;
+    border-radius: 25px;
+    border-top: rou;
+    position: absolute;
+    top: 42%;
+    left: 16%;
+    border-color: rgb(255 255 255/var(--tw-border-opacity));
+}

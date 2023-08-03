@@ -3,7 +3,6 @@ import Image from 'next/image'
 export default function Home() {
     return (
         <>
-   
             <div className="container my-24 mx-auto md:px-6">
                 <section className="mb-32">
                     <div className="container mx-auto text-center lg:text-left xl:px-32">
@@ -95,14 +94,14 @@ export default function Home() {
                                 <div className="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14">
                                     <p className="mb-8 pb-2 text-black dark:text-neutral-300 lg:pb-0 text-[18px] about-image-part philosophy2nd">
                                         Together with our volunteers and supporters, we aim to create a more compassionate, inclusive, and equitable society.<br /><br />
-                                        Our ultimate goal is to ensure that quality eye care is accessible to all individuals, regardless of their socio-economic background.
+                                        Our ultimate goal is to ensure that quality eye care is accessible to all individuals, regardless of their socio-economic background.<br /><br />
                                     </p>          
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-            </div>            
+            </div>           
         </>
     )
 }

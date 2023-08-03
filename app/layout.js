@@ -7,6 +7,8 @@ import "./css/owl.carousel.min.css"
 import "./css/style.css"
 import "./css/responsive.css"
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 //import "node_modules/jquery/dist/jquery.min.js";
 //import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
