@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const webpack = require("webpack");
 const nextConfig = {
+    output: "export",
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
     webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
         config.plugins.push(
          new webpack.ProvidePlugin({

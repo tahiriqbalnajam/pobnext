@@ -9,9 +9,9 @@ import "../assets/css/slick.min.css"
 import "../assets/css/style.css"
 
 
-import Header from '@/components/Header.js'
+import Header from '../components/Header.js'
 
-import Footer from '@/components/Footer.js'
+import Footer from '../components/Footer.js'
 
 export default function DashboardLayout({ children }) {
     return <body className=''><Header />{children}<Footer /></body>;

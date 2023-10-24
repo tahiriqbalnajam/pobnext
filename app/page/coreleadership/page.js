@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Dropdoenmenus from '@/components/DropdownMenu.js'
+import Dropdoenmenus from '../../components/DropdownMenu.js'
 
 export default function Home() {
     return (

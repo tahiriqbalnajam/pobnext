@@ -10,22 +10,34 @@ export default function Header() {
                 <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
                 <ul class="flex flex-col font-medium rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
                     <li>
-                    <Link href="/" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Home</Link>
+                      <Link href="/" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">
+                        Home
+                      </Link>
                     </li>
                     <li>
-                    <Link href="/page/briefprofile" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Brief profile</Link>
+                      <Link href="/page/briefprofile" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">
+                        Brief profile
+                      </Link>
                     </li>
                     <li>
-                    <Link href="/page/philosophy" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Philosophy</Link>
+                      <Link href="/page/philosophy" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">
+                        Philosophy
+                      </Link>
                     </li>
                     <li>
-                    <Link href="/page/contactus" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contact us</Link>
+                      <Link href="/page/contactus" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">
+                        Contact us
+                      </Link>
                     </li>
                     <li>
-                    <Link href="/page/corevalues" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Core values</Link>
+                      <Link href="/page/corevalues" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">
+                        Core values
+                        </Link>
                     </li>
                     <li>
-                    <Link href="/page/boardoftrustees" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Board of trustees</Link>
+                      <Link href="/page/boardoftrustees" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#ED1C24] md:p-0 dark:text-white md:dark:hover:text-[#ED1C24] dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">
+                        Board of trustees
+                      </Link>
                     </li>
                 </ul>
                 </div>

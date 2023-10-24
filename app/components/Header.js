@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import HeaderNavBar from '@/components/HeaderNavBar.js'
+import HeaderNavBar from './HeaderNavBar.js'
 
 export default function Header() {
     return (
