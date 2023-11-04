@@ -1224,3 +1224,28 @@ header ul li a:focus{
     border-bottom: 2px dashed #0146d2 !important;
     border-top: 2px dashed #0146d2 !important;
 }
+
+
+.boxes {
+	transition: background-color 837ms ease-out, color 300ms ease-out;
+  }
+  
+.boxes:hover {
+	background-color: rgba(0, 43, 128, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+.boxes:hover h3, .boxes:hover p {
+	color: rgba(255, 255, 255, 1);
+}
+u.red {
+	text-decoration: none;
+	color: #ED1C24;
+	border-bottom: 1px dashed #ED1C24;
+	font-weight: bold;
+}
+
+.border-img {
+	outline: 5px solid rgb(255, 255, 255);
+	outline-offset: -15px;
+  }

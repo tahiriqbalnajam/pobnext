@@ -18,8 +18,8 @@ export default function Home() {
                                                 <i class="flaticon-charity"></i>
                                             </div>
                                             <div class="project-complete__content">
-                                                <h5>We Completed 293,242 Surgeries</h5>
-                                                <span>Donet for charity</span>
+                                                <h5>950 permanent and mobile eye camps</h5>
+                                                <span>No one should suffer from blindness that can be prevented</span>
                                             </div>
                                         </div>
                                     </div>
@@ -45,7 +45,7 @@ export default function Home() {
                                 <div class="counter-item counter-text-wrap mt-30">
                                     <div class="counter-item__icon"><i class="flaticon-solidarity"></i></div>
                                     <div class="counter-item__content">
-                                        <span class="count-text" data-speed="3000" data-stop="876000">20,071,260</span>
+                                        <span class="count-text" data-speed="3000" data-stop="876000">2.5 million</span>
                                         <span class="counter-title">OPD done</span>
                                     </div>
                                 </div>
@@ -53,8 +53,8 @@ export default function Home() {
                                     <div class="counter-item__icon counter-item__icon--green"><i class="flaticon-help"></i>
                                     </div>
                                     <div class="counter-item__content">
-                                        <span class="count-text" data-speed="3000" data-stop="45000">810</span>
-                                        <span class="counter-title">Free Eye Camps</span>
+                                        <span class="count-text" data-speed="3000" data-stop="45000">More than 3 lac</span>
+                                        <span class="counter-title">Surgeries in Free Eye Camps</span>
                                     </div>
                                 </div>
                                 <a href="#" class="btn-red">Discover More</a>

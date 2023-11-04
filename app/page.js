@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import 'animate.css';
 import Header from './components/Header.js'
 
 import Footer from './components/Footer.js'
@@ -12,50 +13,52 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-5 col-md-12">
               <div className="about-info-text">
-                <h2>Urgent <span>Donation</span> <br />Needed</h2>
-                <div className="about-tag">
-                  <p><span>PKR 350 Million</span> for the construction of POB Eye Hospital Lahore</p>
+                <h2>Absolutely Free <br /><span>Eye Care </span></h2>
+                <div className="about-tag animate__animated animate__zoomIn">
+                  <p>More than <span>3.5 lac </span> free eye surgeries for cataract, glaucoma and other eye diseases</p>
                 </div>
-                <p className="text mt-3 mb-5">POB Eye hospital Lahore will provide access to vital eye care services
-                  for those who cannot afford them, saving countless lives and preventing needless blindness.
-                  By providing these services free of charge, we can help create a brighter and more equitable
-                  world for all.</p>
+                <p className="text mt-3 mb-5">
+                  <b>Prevention of Blindness</b> Trust is a registered charity working for the prevention and treatment of the avoidable causes of blindness focusing 
+                  on the deprived and marginalized communities. Since its <u className='red'>inception in July 2007</u>, the trust has been providing <b>free-of-cost diagnostic and surgical 
+                  eye care
+                  services</b> in remote and deprived areas of &apos;Pakistan&apos; and different &apos;African&apos; countries. We have established a strong <u className='red'>network of volunteer ophthalmologists, 
+                  eye care professionals, donors,</u> and community-based workers.</p>
                 <a href="#" className="btn-red">View Details</a>
               </div>
             </div>
             <div className="offset-lg-1 col-lg-6 col-md-12">
               <div className="about-info-img">
-                <Image height="428" width="576" src="/images/about-img.png" alt="" />
+                <Image height="428" width="576" src="/images/IMG_0580.JPG" alt="" className='border-img' />
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="about-box">
+            <div className="col-lg-3 col-md-6 col-sm-12 animate__animated animate__backInLeft">
+              <div className="about-box boxes">
                 <Image className='inline-flex' height="80" width="61" src="/images/donate-icon.png" alt="" />
-                <h3>14.29%</h3>
-                <p>Complete</p>
+                <h3>950</h3>
+                <p>Eye camps</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="about-box">
+              <div className="about-box boxes">
                 <Image className='inline-flex' height="180" width="80" src="/images/donate-icon2.png" alt="" />
-                <h3>80 Million</h3>
-                <p>Collected</p>
+                <h3>10 Thousand </h3>
+                <p>Free Eye Glasses</p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="about-box">
+            <div className="col-lg-3 col-md-6 col-sm-12 ">
+              <div className="about-box boxes">
                 <Image className='inline-flex' height="180" width="100" src="/images/donate-icon3.png" alt="" />
-                <h3>78</h3>
-                <p>Donators</p>
+                <h3>Millions</h3>
+                <p>of Eye Drops </p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="about-box">
+            <div className="col-lg-3 col-md-6 col-sm-12 animate__animated animate__backInRight">
+              <div className="about-box boxes">
                 <Image className='inline-flex' height="180" width="80" src="/images/donate-icon4.png" alt="" />
-                <h3>270 Million</h3>
-                <p>Needed</p>
+                <h3 className='boxes'>23</h3>
+                <p>Different Countries</p>
               </div>
             </div>
           </div>
@@ -126,29 +129,29 @@ export default function Home() {
                   <div className="col-lg-3 col-sm-6">
                     <div className="mission-box">
                       <i className="fa-solid fa-medal"></i>
-                      <h5>200,000</h5>
-                      <p>RAISED</p>
+                      <h5>Awareness</h5>
+                      <p>Campaigns</p>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-6">
                     <div className="mission-box">
                       <i className="fa-solid fa-file-lines"></i>
-                      <h5>300,000</h5>
-                      <p>PROJECTS</p>
+                      <h5>Training</h5>
+                      <p>Workshops</p>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-6">
                     <div className="mission-box">
-                      <i className="fa-solid fa-hand-holding-heart"></i>
-                      <h5>27000</h5>
-                      <p>DONATIONS</p>
+                    <i class="fa-solid fa-book-atlas"></i>
+                      <h5>Research</h5>
+                      <p>Projects</p>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-6">
                     <div className="mission-box">
                       <i className="fa-solid fa-handshake-simple"></i>
-                      <h5>200,000</h5>
-                      <p>DONATIONS</p>
+                      <h5>Advocacy</h5>
+                      <p>Initiatives</p>
                     </div>
                   </div>
                 </div>
@@ -156,7 +159,7 @@ export default function Home() {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="mission-img">
-                <Image height="419" width="576" src="/images/vission.jpg" alt="" />
+                <Image height="419" width="576" src="/images/blind_eye.jpeg" alt="" className='border-img' />
               </div>
             </div>
           </div>
@@ -168,7 +171,7 @@ export default function Home() {
           <div className="row">
             <div className="col-md-6 col-sm-12">
               <div className="default-heading">
-                <h2>VISION & MISSION</h2>
+                <h2>MEDIA GALLERY</h2>
                 <span className="heading-line1"></span>
                 <span className="heading-line2"></span>
                 <span className="heading-line3"></span>
