@@ -35,7 +35,8 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-12 animate__animated animate__backInLeft">
               <div className="about-box boxes">
-                <Image className='inline-flex' height="80" width="61" src="/images/donate-icon.png" alt="" />
+                {/* <Image className='inline-flex' height="80" width="61" src="/images/donate-icon.png" alt="" /> */}
+                <i class="fa-regular fa-eye-slash"></i>
                 <h3>950</h3>
                 <p>Eye camps</p>
               </div>
@@ -128,28 +129,28 @@ export default function Home() {
                 <div className="row">
                   <div className="col-lg-3 col-sm-6">
                     <div className="mission-box">
-                      <i className="fa-solid fa-medal"></i>
+                      <i className="fa-solid fa-circle-exclamation"></i>
                       <h5>Awareness</h5>
                       <p>Campaigns</p>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-6">
                     <div className="mission-box">
-                      <i className="fa-solid fa-file-lines"></i>
+                      <i className="fa-solid fa-person-chalkboard"></i>
                       <h5>Training</h5>
                       <p>Workshops</p>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-6">
                     <div className="mission-box">
-                    <i class="fa-solid fa-book-atlas"></i>
+                    <i class="fa-solid fa-book-open-reader"></i>
                       <h5>Research</h5>
                       <p>Projects</p>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-6">
                     <div className="mission-box">
-                      <i className="fa-solid fa-handshake-simple"></i>
+                      <i className="fa-solid fa-book-open"></i>
                       <h5>Advocacy</h5>
                       <p>Initiatives</p>
                     </div>
@@ -306,30 +307,30 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="how-can-help-box zakat">
-                <i className="fa-solid fa-file-invoice-dollar"></i>
+                <i className="fa-solid fa-hand-holding-hand"></i>
                 <h4>Zakat</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>We adhere to the Islamic principles and guidelines of zakat and use it to support poor and needy patients with eye care and treatment.</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="how-can-help-box endowment">
-                <i className="fa-solid fa-file-invoice-dollar"></i>
+                <i className="fa-solid fa-seedling"></i>
                 <h4>Endowment</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>By giving an endowment, you will not only help us to continue our work, but also earn the reward of Allah for your generosity.</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="how-can-help-box volunteer">
-                <i className="fa-solid fa-file-invoice-dollar"></i>
+                <i className="fa-solid fa-dove"></i>
                 <h4>Volunteer</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>Volunteers can assist with various tasks, such as screening patients, dispensing glasses, educating the public, fundraising, and more.</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="how-can-help-box sponsor">
-                <i className="fa-solid fa-file-invoice-dollar"></i>
+                <i className="fa-solid fa-parachute-box"></i>
                 <h4>Sponsor</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>Embrace this opportunity to make a lasting impact and be a beacon of light for those in need, and create a ripple effect of positive change</p>
               </div>
             </div>
           </div>
