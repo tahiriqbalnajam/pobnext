@@ -1249,3 +1249,10 @@ u.red {
 	outline: 5px solid rgb(255, 255, 255);
 	outline-offset: -15px;
   }
+
+  .mainpage-icons {
+    font-size: 63px;
+    padding-bottom: 14px;
+    padding-top: 10px;
+    color: #ed1c24;
+}

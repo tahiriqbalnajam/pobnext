@@ -36,28 +36,28 @@ export default function Home() {
             <div className="col-lg-3 col-md-6 col-sm-12 animate__animated animate__backInLeft">
               <div className="about-box boxes">
                 {/* <Image className='inline-flex' height="80" width="61" src="/images/donate-icon.png" alt="" /> */}
-                <i class="fa-regular fa-eye-slash"></i>
+                <i class="far fa-eye mainpage-icons"></i>
                 <h3>950</h3>
                 <p>Eye camps</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="about-box boxes">
-                <Image className='inline-flex' height="180" width="80" src="/images/donate-icon2.png" alt="" />
+                <i class="fas fa-glasses mainpage-icons"></i>
                 <h3>10 Thousand </h3>
                 <p>Free Eye Glasses</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 ">
               <div className="about-box boxes">
-                <Image className='inline-flex' height="180" width="100" src="/images/donate-icon3.png" alt="" />
+                <i class="fas fa-tint mainpage-icons"></i>
                 <h3>Millions</h3>
                 <p>of Eye Drops </p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 animate__animated animate__backInRight">
               <div className="about-box boxes">
-                <Image className='inline-flex' height="180" width="80" src="/images/donate-icon4.png" alt="" />
+                <i class="fas fa-globe mainpage-icons"></i>
                 <h3 className='boxes'>23</h3>
                 <p>Different Countries</p>
               </div>
@@ -189,7 +189,77 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <div className="tab-content" id="myTabContent">
+          <div className="tab-content image-tab-content" id="myTabContent">
+            <div className="tab-pane fade show active" id="image-gallery-tab-pane" role="tabpanel" aria-labelledby="image-gallery-tab" tabindex="0">
+              <div className="row">
+                <div className="col-md-4 col-sm-12">
+                  <div className="image-box">
+                    <Image height="289" width="356" src="/images/gallary1.jpg" alt="" />
+                  </div>
+                  <div className="image-box">
+                    <Image height="577" width="356" src="/images/gallary2.jpg" alt="" />
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-12">
+                  <div className="image-box">
+                    <Image height="577" width="356" src="/images/gallary3.jpg" alt="" />
+                  </div>
+                  <div className="image-box">
+                    <Image height="289" width="356" src="/images/gallary4.jpg" alt="" />
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-12">
+                  <div className="image-box">
+                    <Image height="290" width="356" src="/images/gallary5.jpg" alt="" />
+                  </div>
+                  <div className="image-box">
+                    <Image height="577" width="356" src="/images/gallary6.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="text-center">
+                <a href="#" className="btn-red">View More</a>
+              </div>
+            </div>
+            <div className="tab-pane fade" id="video-gallery-tab-pane" role="tabpanel" aria-labelledby="video-gallery-tab" tabindex="0">
+              <div className="row">
+                <div className="col-md-4 col-sm-12">
+                  <div className="image-box">
+                    <Image height="50" width="50" src="/images/gallary1.jpg" alt="" />
+                    <a title="title here" data-height="420" data-width="900" className="html5lightbox content-vbtn-color-blue" href="https://www.youtube.com/watch?v=8VnjK4P7gIg"><i className="fa fa-play" aria-hidden="true"></i></a>
+                  </div>
+                  <div className="image-box">
+                    <Image height="50" width="50" src="/images/gallary2.jpg" alt="" />
+                    <a title="title here" data-height="420" data-width="900" className="html5lightbox content-vbtn-color-blue" href="https://www.youtube.com/watch?v=8VnjK4P7gIg"><i className="fa fa-play" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-12">
+                  <div className="image-box">
+                    <Image height="50" width="50" src="/images/gallary3.jpg" alt="" />
+                    <a title="title here" data-height="420" data-width="900" className="html5lightbox content-vbtn-color-blue" href="https://www.youtube.com/watch?v=8VnjK4P7gIg"><i className="fa fa-play" aria-hidden="true"></i></a>
+                  </div>
+                  <div className="image-box">
+                    <Image height="50" width="50" src="/images/gallary4.jpg" alt="" />
+                    <a title="title here" data-height="420" data-width="900" className="html5lightbox content-vbtn-color-blue" href="https://www.youtube.com/watch?v=8VnjK4P7gIg"><i className="fa fa-play" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+                <div className="col-md-4 col-sm-12">
+                  <div className="image-box">
+                    <Image height="50" width="50" src="/images/gallary5.jpg" alt="" />
+                    <a title="title here" data-height="420" data-width="900" className="html5lightbox content-vbtn-color-blue" href="https://www.youtube.com/watch?v=8VnjK4P7gIg"><i className="fa fa-play" aria-hidden="true"></i></a>
+                  </div>
+                  <div className="image-box">
+                    <Image height="50" width="50" src="/images/gallary6.jpg" alt="" />
+                    <a title="title here" data-height="420" data-width="900" className="html5lightbox content-vbtn-color-blue" href="https://www.youtube.com/watch?v=8VnjK4P7gIg"><i className="fa fa-play" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div className="text-center">
+                <a href="#" className="btn-red">View More</a>
+              </div>
+            </div>
+          </div>
+          <div className="tab-content video-tab-content" id="myTabContent">
             <div className="tab-pane fade show active" id="image-gallery-tab-pane" role="tabpanel" aria-labelledby="image-gallery-tab" tabindex="0">
               <div className="row">
                 <div className="col-md-4 col-sm-12">

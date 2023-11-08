@@ -7,6 +7,15 @@ jQuery(function ($) {
     var $root = $("html, body");
     var $body = $("body");
 
+	//import React from 'react';
+	//import ReactDOM from 'react-dom';
+	//import $ from 'jquery';
+	
+		$(".video-tab-content").css("visibility", "hidden");
+		
+		$('#image-gallery-tab').on('click', function() {
+			alert("ffff");
+		});
     /* Scroll Function
     ============================================== */
 	$(window).scroll(function(){

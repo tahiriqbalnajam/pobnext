@@ -1,5 +1,11 @@
-; (function ($) {
+jQuery(function ($) {
     "use strict";
+
+    $(".video-tab-content").css("visibility", "hidden");
+		
+		$('#image-gallery-tab').on('click', function() {
+			alert("ffff");
+		});
 
     $(document).ready(function () {
 

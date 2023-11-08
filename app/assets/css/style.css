@@ -8139,3 +8139,11 @@ ul li {
   position: relative;
   color: black;
 }
+
+
+.mainpage-icons {
+  font-size: 63px;
+  padding-bottom: 14px;
+  padding-top: 10px;
+  color: #ed1c24;
+}
